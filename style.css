@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    padding: 15px;
+    background-color: rgb(34,82,116);
+    border: 3px solid rgb(9, 51, 82);
+    border-radius: 4px;
+    font-family: Dela Gothic One;
+}
+.navbar .Link-1{
+    padding: 2px;
+    width: 2.5vw;
+    float: right
+}
+.navbar .Link-2{
+    padding: 2px;
+    width: 2.5vw; 
+    float: right
+}
+.navbar .Link-3{
+    padding: 2px;
+    width: 2.5vw; 
+    float: right
+}
+.navbar span{
+    text-align: left;
+    font-size: x-large;
+}
+.container{
+    text-align: center; 
+    background-color: rgb(10, 28, 41);
+}
+.container div{
+    min-height: 40vh;
+}
+.sidelinks{
+    padding: 5px;
+    display:inline-block; 
+    font-family: Anton;
+    background-color: rgb(34,82,116);
+    border: 3px solid rgb(9, 51, 82);
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    width: 8vw;
+    float: left
+}
+.sidelinks span{
+    text-align: center;
+    font-size: larger;
+}
+.sidelinks a{
+    display: block;
+}
+.sidelinks .sidelink-1{
+    padding: 3px;
+    margin-top: .5vw;
+    width: 2.5vw;
+}
+.sidelinks .sidelink-2{
+    padding: 3px;
+    margin-top: .5vw;
+    width: 2.5vw; 
+}
+.sidelinks .sidelink-3{
+    padding: 2px;
+    width: 3vw; 
+}
+.sidelinks .sidelink-4{
+    padding: 2px;
+    width: 2.5vw; 
+}
+.main-content{
+    display:inline-block; 
+    background-color: rgb(34,82,116);
+    border: 3px solid rgb(9, 51, 82);
+    border-radius: 10px;
+    width: 30vw; 
+    padding: 15px;
+    margin-top: 1vw;
+    margin-left: 1vw; 
+    margin-right: 3vw; 
+    text-align: center;
+}
+.side-content{
+    display:inline-block; 
+    background-color: rgb(34,82,116);
+    border: 3px solid rgb(9, 51, 82);
+    border-radius: 10px;
+    margin-top: 2vw; 
+    margin-right: 2vw;
+    width: 20vw; 
+    float:right
+}
+.side-content img {
+    width:19vw;
+    margin-top: .5vw;
+}
+.body{
+    border-top:1px solid burlywood;
+    background-repeat: inherit;
+    min-height: 82.1vh;
+}
